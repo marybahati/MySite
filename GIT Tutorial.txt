@@ -1,0 +1,64 @@
+Steps:
+
+1. Create a github account
+2. Sign in to github
+3. Create a new repository named "akirachix"
+- DO NOT Select the option of "Initialize this repository with Readme.md"
+4. Open GIT GUI
+
+5. Create New Repository
+- Direct repository location to your folder location
+6. Open GIT Bash
+- Make sure the location on the cmd reads the location of your folder / local repository
+
+THINGS THAT WILL ONLY BE DONE ONCE:
+-- git config --global user.email "aloopascal@gmail.com"
+--git config --global user.name "aloopascal"
+
+How to check username and email:
+- Search on computer "gitconfig"
+- Locate file and open in folder
+- Right Click and Open with notepad
+- You will see email = "your email" and name = "your username"
+
+* Make sure this information is correct!!!
+*
+7. git init
+- This is the same action as we had initialised with GIT GUI. If not using GIT GUI, this would be the first action on the cmd
+8. git status
+- This shows you the status of your folder.. Whether there are any commits made
+9. git add <filename> to add specific file or git add . to add all files
+10. git commit -m "Description"
+Adding your files to cart.
+
+WILL MOST LIKELY ONLY BE DONE ONCE.
+11. git remote add origin https://github.com/aloopascal/akirachix.git
+12. Make sure to confirm this by clicking git remote -v
+13. If there is an error:
+use: git remote set-url --add origin <NAME OF REPOSITORY>
+Once you set the new one, delete the old one using
+git remote set-url --delete origin <NAME OF REPOSITORY>
+
+14. With git remote -v it should read the right repository.
+15. git push origin master.
+- It should bring you a place to put in your username and password.
+16. put in password and username
+17. Voila!
+
+
+Possible Errors:
+1.
+To https://github.com/aloopascal/akirachix.git
+! [rejected] master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/aloopascal/akirachix.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+This is caused by uploading to a repository that does not match your folder. In this case it is initialised with README.md and our folder does not have a README.
+Solution: Sync the folders using
+git pull origin master
+Check folder to confirm
