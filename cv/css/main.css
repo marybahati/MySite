@@ -1,0 +1,106 @@
+/*html{
+background-color: #f2f4f7;
+}
+body{
+width: 100%*/
+
+}
+.bac{
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-right: 100px;
+  padding-left: 100px;
+}.txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+} 
+hr{
+  width: 500px;
+}
+.txt h3{
+  color: white;
+  text-align: center;
+  }
+.txt button{
+  margin-left: 200px;
+}
+/*.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+/*.box{
+border: 1px solid green ;
+}
+*/
+.first{
+width: cover;
+height: 10px;
+background-color: black;
+list-style: none;
+padding: 30px;
+margin: 0 auto;
+}
+a{
+text-decoration-line: none;
+color: white;
+padding-right: 20px;
+float: right;
+}
+
+.first a:hover{
+color: green;
+}
+.second{
+column-count: 3;
+padding: 30px;
+padding-right: 20px;
+background-color: white;
+}
+.third{
+float: right;
+background-color: #DCDCDC;
+width: 800px;
+height: 600px;
+padding-right: 150px;
+
+}
+.c{
+
+}
+.me{
+  padding-left: 80px;
+  padding-top: 70px;
+
+}
+.side{
+float:right;
+column-count: 2;
+width: 800px;
+padding: 20px;
+padding-left: 150px;
+
+}
+.de{
+  width: 300px;
+padding-right: 150px;
+float: left;
+}
+.web{
+width: 250px;
+padding-left: 120px;
+}
+.skl{
+width: 400px;
+padding: 20px;
+
+}
+
+
+
+
